@@ -82,9 +82,9 @@ const Navbar = () => {
               )}
             </Link>
 
-           <Link to="/login" className="text-gray-300 hover:text-white transition hidden sm:block">
+           {/* <Link to="/login" className="text-gray-300 hover:text-white transition hidden sm:block">
               <User size={22} />
-            </Link>
+            </Link>  */}
               <Link to="/orders" className="text-gray-300 hover:text-white transition hidden sm:block">
               <User size={22} />
             </Link>
